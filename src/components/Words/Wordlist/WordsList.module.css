@@ -1,0 +1,83 @@
+.WordsList {
+    color: rgb(29, 207, 207);
+    display: grid;
+     grid-template-columns: 1fr repeat(4, 2fr) 1fr;
+ 
+}
+
+.cell {
+    border: 1px solid rgb(73, 161, 196);
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    
+}
+
+.name {
+    color: rgb(223, 157, 230);
+      
+}
+
+.buttonSave {
+    background-color: rgb(224, 197, 205);
+    color: rgb(49, 179, 99);
+}
+
+.buttonDel {
+    background-color: rgb(122, 197, 216);
+}
+
+.buttonDelAll {
+    background-color: red;
+}
+
+.buttonEdit {
+    background-color: rgb(187, 189, 60);
+    color: rgb(36, 115, 184);
+}
+
+.buttonsChange {
+    font-size: 1.3vh;
+    border: 0;
+    border-radius: 30%;
+    width:5vw;
+    height: 3vh;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.buttonsChange:hover {
+    color: aqua;
+    border: 1px solid aqua;
+    background-color: rgb(202, 231, 231, 0.5);
+}
+
+.title {
+    color: rgb(198, 244, 255);
+}
+
+.App {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(104, 115, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.buttonDisabled {
+    background-color: gray;
+    color: black;
+    border: black;
+}
+
+.buttonDisabled:hover {
+    background-color: gray;
+    color: black;
+    border: black;
+}
+
+.redCellInp {
+    border-color: red;
+}
